@@ -1,5 +1,7 @@
 Flashback zurück nach Einführung in die Informatik, was ist ein Register?
 
+![](./_content/switchboard.png)
+
 # Arten von Registern
 
 ## Datenregister
