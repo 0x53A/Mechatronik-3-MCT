@@ -6,9 +6,9 @@ Flashback zurück nach Einführung in die Informatik, was ist ein Register?
 
 ## Datenregister
 
-Diese Register speichern Daten, der Unterschied zu normalem, linearen Speicher, ist, dass sie meistens um ein vielfaches schneller sind.
+Diese Register speichern Daten, der Unterschied zu normalem, addressiertem Speicher, ist, dass sie meistens um ein vielfaches schneller sind.
 
-_(was ist linearer Speicher? Der ganz normale RAM, der über eine Adresse wie 0x123456 erreicht werden kann.)_
+_(was ist addressierter Speicher? Der ganz normale RAM, der über eine Adresse wie 0x123456 erreicht werden kann.)_
 
 
 ## Kontrollregister
