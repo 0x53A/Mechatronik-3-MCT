@@ -37,10 +37,9 @@ https://www.st.com/en/development-tools/stm32cubeide.html#get-software
 
  ![](./_content/new_project.png)
 
- Oben links: "Board Selector", dann bei "Commercial Part Number" "STM"
+ Oben links: "Board Selector", dann bei "Commercial Part Number" "STM32F407G-DISC1" auswählen, das Board unten rechts auswählen, und auf "Next" drücken.
 
  ![](./_content/select_board.png)
 
  ![](./_content/project_wizard.png)
 
- 
