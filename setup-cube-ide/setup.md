@@ -23,6 +23,9 @@ https://www.st.com/en/development-tools/stm32cubeide.html#get-software
 
  ![](./_content/manage_embedded.png)
 
+
+## ST-Link
+
  * ST-Link auf Dev-Board updaten
    
    (ST-Link ist der auf dem Entwicklungsboard integrierte Programmer / Debugger)
@@ -33,13 +36,16 @@ https://www.st.com/en/development-tools/stm32cubeide.html#get-software
 
    Im Update Tool auf "Open in Update Mode" klicken, dann "Upgrade".
 
- * Neues Projekt erstellen
 
- ![](./_content/new_project.png)
+## Firmware & Treiber
 
- Oben links: "Board Selector", dann bei "Commercial Part Number" "STM32F407G-DISC1" auswählen, das Board unten rechts auswählen, und auf "Next" drücken.
+ * Firmware und Demos herunterladen und in einen passenden Ordner kopieren
 
- ![](./_content/select_board.png)
+ https://www.st.com/en/embedded-software/stsw-stm32068.html
 
- ![](./_content/project_wizard.png)
+
+## Neues Projekt
+
+ * [Neues Projekt erstellen](./new_project.md)
+
 
