@@ -2,6 +2,13 @@ Der in das Dev Board integrierte ST-Link kann verwendet werden, um Text vom Micr
 
 ### Ayatollah Studio
 
+#### Projekterstellung
+
+Bei der Erstellung vom Projekt darf NICHT tinyprintf ausgewählt werden, da tinyprintf keine floating point Zahlen ausgeben kann!
+
+
+#### SWV
+
 Um die SWV Verbindung verwenden zu können, muss zuerst in den Debug-Einstellungen SWV Aktiviert und die richtige Frequenz eingetragen werden.
 
 Eingetragen werden muss die Core Frequenz aus dem Excel Tool:
