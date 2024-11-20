@@ -53,6 +53,8 @@ int _write(int file, char *ptr, int len) {
 }
 ```
 
+(in Cube IDE kann _write über main kopiert werden, in Ayatollah Studio MUSS _write in syscalls.c EDITIERT werden)
+
 Allerdings verwendet printf intern einen Buffer und schreibt die Daten erst weiter wenn diese voll ist. Die Ausgabe wird also nur mit einiger Verzögerung angezeigt.
 
 Um den Buffer sofort weiterzuschreiben kann ``fflush`` verwendet werden:
@@ -60,6 +62,7 @@ Um den Buffer sofort weiterzuschreiben kann ``fflush`` verwendet werden:
 ```c
 #include <stdio.h>
 
+printf("Hello :)");
 fflush(stdout);
 ```
 
