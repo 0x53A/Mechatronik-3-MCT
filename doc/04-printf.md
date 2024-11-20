@@ -1,5 +1,28 @@
 Der in das Dev Board integrierte ST-Link kann verwendet werden, um Text vom Microcontroller an die IDE zu schicken.
 
+### Ayatollah Studio
+
+Um die SWV Verbindung verwenden zu können, muss zuerst in den Debug-Einstellungen SWV Aktiviert und die richtige Frequenz eingetragen werden.
+
+Eingetragen werden muss die Core Frequenz aus dem Excel Tool:
+
+![alt text](image.png)
+
+![alt text](image-4.png)
+
+
+Nach dem das Programm gestartet wurde, muss der Port aktiviert werden (1x, das wird gespeichert):
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+
+Dann muss der Trace gestartet werden (JEDES MAL, wird nicht gespeichert)
+
+![alt text](image-3.png)
+
+
+### Cube IDE
+
 
 Folgendes wurde in der STM32 Cube IDE getestet:
 
@@ -8,6 +31,8 @@ Folgendes wurde in der STM32 Cube IDE getestet:
 2 - Core Frequenz setzen
 
 Die Core Frequenz, welche an anderer Stelle konfiguriert wurde, muss nun ebenfalls im Debug Menü eingetragen werden:
+
+TODO
 
 
 
