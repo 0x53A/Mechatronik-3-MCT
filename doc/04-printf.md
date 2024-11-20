@@ -30,6 +30,14 @@ int _write(int file, char *ptr, int len) {
 
 Allerdings verwendet printf intern einen Buffer und schreibt die Daten erst weiter wenn diese voll ist. Die Ausgabe wird also nur mit einiger Verzögerung angezeigt.
 
+Um den Buffer sofort weiterzuschreiben kann ``fflush`` verwendet werden:
+
+```c
+#include <stdio.h>
+
+fflush(stdout);
+```
+
 
 ### Eigene Funktion
 
